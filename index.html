@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zahnzentrum</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Roboto:wght@400;500;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="contact-list">
+
+          <li class="contact-item">
+            <ion-icon name="mail-outline"></ion-icon>
+
+            <a href="mailto:info@example.com" class="contact-link">info@zahnzentrum.nrw</a>
+          </li>
+
+          <li class="contact-item">
+            <ion-icon name="call-outline"></ion-icon>
+
+            <a href="tel:+917052101786" class="contact-link">+49 (0) 2421 1234567</a>
+          </li>
+
+        </ul>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+         <!-- <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+-->
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="header-bottom" data-header>
+      <div class="container">
+
+        <a href="#" class="logo">Zahnzentrum.</a>
+
+        <nav class="navbar container" data-navbar>
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>Start</a>
+            </li>
+
+            <li>
+              <a href="#service" class="navbar-link" data-nav-link>Leistungen</a>
+            </li>
+
+            <li>
+              <a href="#about" class="navbar-link" data-nav-link>Über uns</a>
+            </li>
+
+            <li>
+              <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link" data-nav-link>Kontakt</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <a href="tel: 024211234567" class="btn">Termin vereinbaren</a>
+
+        <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggler>
+          <ion-icon name="menu-sharp" aria-hidden="true" class="menu-icon"></ion-icon>
+          <ion-icon name="close-sharp" aria-hidden="true" class="close-icon"></ion-icon>
+        </button>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" style="background-image: url('./assets/images/hero-bg.png')"
+        aria-label="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="section-subtitle">Wilkommen im Zahnzentrum.</p>
+
+            <h1 class="h1 hero-title">Ihr Lächeln in besten Händen</h1>
+
+            <p class="hero-text">
+              Wir legen besonderen Wert auf einfühlsame Behandlungen und nehmen uns Zeit, 
+              um Ihre individuellen Bedürfnisse zu verstehen und Ihnen die bestmögliche 
+              Lösung zu bieten.
+            </p>
+
+            <form action="" class="hero-form">
+              <input type="email" name="email_address" aria-label="email" placeholder="Ihre E-Mail-Adresse..." required
+                class="email-field">
+
+              <button type="submit" class="btn">Infos zu unseren Leistungen</button>
+            </form>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-image-woman-removebg-preview.png" width="587" height="839" alt="hero banner" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="service" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle text-center">Unsere Leistungen</p>
+
+          <h2 class="h2 section-title text-center">in Ihrem Zahnzentrum</h2>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-1.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Wurzelbehandlung</h3>
+
+                  <p class="card-text">
+                    Die letzte Möglichkeit, einen erkrankten oder abgestorbenen Zahn zu retten.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-2.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Zahnausrichtung</h3>
+
+                  <p class="card-text">
+                    Nicht die angenehmste Prozedur, aber die Wirkung ist atemberaubend.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-3.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Professionelle Zahnreinigung</h3>
+
+                  <p class="card-text">
+                    Beugt Parodontose und Karies vor und entfernt den Zahnbelag.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="service-banner">
+              <figure>
+                <img src="./assets/images/service-banner.png" width="409" height="467" loading="lazy"
+                  alt="service banner" class="w-100">
+              </figure>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-4.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Zahnfleischbehandlung</h3>
+
+                  <p class="card-text">
+                    Entzündungen behandeln, Zahngesundheit erhalten, Ausbreitung der Entzündung stoppen.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-5.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Füllungstherapie</h3>
+
+                  <p class="card-text">
+                    Hier steht sowohl die Funktionstüchtigkeit des Zahns als auch die Ästhetik an oberster Stelle.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/service-icon-6.png" width="100" height="100" loading="lazy"
+                    alt="service icon" class="w-100">
+                </div>
+
+                <div>
+                  <h3 class="h3 card-title">Mundhygiene</h3>
+
+                  <p class="card-text">
+                    Wir beraten Sie auch gerne zu allen Fragen der Mundhygiene und geben Ihnen wertvolle Tipps, diese in Zukunft noch genauer umzusetzen.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="470" height="538" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">Über uns</p>
+
+            <h2 class="h2 section-title">Exzellente zahnärztliche Versorgung und individuelle Betreuung.</h2>
+
+            <p class="section-text section-text-1">
+              Unser hochqualifiziertes Team aus erfahrenen Zahnärzten und Fachkräften legt großen Wert auf Ihr Wohlbefinden und Ihre Zahngesundheit.
+              Wir bieten ein umfassendes Spektrum an modernen zahnmedizinischen Leistungen, von der Vorsorge und Prophylaxe bis hin zu ästhetischen Zahnkorrekturen und Zahnersatz. 
+              Dabei setzen wir auf innovative Technologien und bewährte Behandlungsmethoden, um Ihnen stets die bestmögliche Versorgung zu bieten.
+            </p>
+
+            <p class="section-text">
+              Unser Ziel ist es, Ihnen ein strahlendes Lächeln und langfristige Zahngesundheit zu ermöglichen. Wir nehmen uns Zeit für eine gründliche Diagnose, beraten Sie individuell und erarbeiten gemeinsam mit Ihnen einen maßgeschneiderten Behandlungsplan. 
+              Dabei legen wir großen Wert auf eine einfühlsame und patientenorientierte Atmosphäre, in der Sie sich wohlfühlen können.
+              Vertrauen Sie auf unsere Kompetenz und Erfahrung. Wir freuen uns darauf, Sie in unserem Zahnzentrum willkommen zu heißen und Ihnen zu einem gesunden und schönen Lächeln zu verhelfen.
+            </p>
+
+            <a href="#" class="btn">Kontaktieren Sie uns gerne, um mehr zu erfahren.</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #DOCTOR
+      -->
+
+      <section class="section doctor" aria-label="doctor">
+        <div class="container">
+
+          <p class="section-subtitle text-center">Unser Team.</p>
+
+          <h2 class="h2 section-title text-center">Lernen Sie unser Praxisteam kennen.</h2>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="doctor-card">
+
+                <div class="card-banner img-holder" style="--width: 460; --height: 500;">
+                  <img src="./assets/images/doctor-1.png" width="460" height="500" loading="lazy" alt="Howard Holmes"
+                    class="img-cover">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Dr. Elias Otego</a>
+                </h3>
+
+                <p class="card-subtitle">Zahnarzt</p>
+<!--
+                <ul class="card-social-list">
+
+                  <li>
+                    <a href="#" class="card-social-link">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="card-social-link">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="card-social-link">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+
+                </ul>
+-->
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="doctor-card">
+
+                <div class="card-banner img-holder" style="--width: 460; --height: 500;">
+                  <img src="./assets/images/doctor-2.png" width="460" height="500" loading="lazy" alt="Ella Thompson"
+                    class="img-cover">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Anna Schmidt</a>
+                </h3>
+
+                <p class="card-subtitle">Rezeptionistin</p>
+              <!--
+                <ul class="card-social-list">
+
+                  <li>
+                    <a href="#" class="card-social-link">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="card-social-link">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="card-social-link">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+
+                </ul>
+-->
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="doctor-card">
+
+                <div class="card-banner img-holder" style="--width: 460; --height: 500;">
+                  <img src="./assets/images/doctor-3.png" width="460" height="500" loading="lazy" alt="Vincent Cooper"
+                    class="img-cover">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Julian Wagner</a>
+                </h3>
+
+                <p class="card-subtitle">Zahnmedizinischer Fachangestellter</p>
+<!--
+                <ul class="card-social-list">
+
+                  <li>
+                    <a href="#" class="card-social-link">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="card-social-link">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="card-social-link">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+
+                </ul>
+-->
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="doctor-card">
+
+                <div class="card-banner img-holder" style="--width: 460; --height: 500;">
+                  <img src="./assets/images/doctor-4.png" width="460" height="500" loading="lazy" alt="Danielle Bryant"
+                    class="img-cover">
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Lisa Müller</a>
+                </h3>
+
+                <p class="card-subtitle">Zahnmedizinische Fachangestellte</p>
+<!--
+                <ul class="card-social-list">
+
+                  <li>
+                    <a href="#" class="card-social-link">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="card-social-link">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="card-social-link">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+
+                </ul>
+-->
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta" aria-label="cta">
+        <div class="container">
+
+          <figure class="cta-banner">
+            <img src="./assets/images/cta-banner.png" width="1056" height="1076" loading="lazy" alt="cta banner"
+              class="w-100">
+          </figure>
+
+          <div class="cta-content">
+
+            <p class="section-subtitle">Buchen Sie noch heute einen Termin</p>
+
+            <h2 class="h2 section-title">Wir freuen uns auf Ihren Besuch!</h2>
+
+            <a href="tel: 015786599562" class="btn">Termin vereinbaren</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog" aria-label="blog">
+        <div class="container">
+
+          <p class="section-subtitle text-center">Interessante Beiträge</p>
+
+          <h2 class="h2 section-title text-center">Aktuelle Blogs & News</h2>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
+                  <img src="./assets/images/blog-1.jpg" width="1180" height="800" loading="lazy"
+                    alt="Cras accumsan nulla nec lacus ultricies placerat." class="img-cover">
+
+                  <div class="card-badge">
+                    <ion-icon name="calendar-outline"></ion-icon>
+
+                    <time class="time" datetime="2023-03-24">24. März 2023</time>
+                  </div>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">warum regelmäßige Termine beim Zahnarzt wichtig sind.</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Eine zahnärztliche Untersuchung umfasst in der Regel eine Überprüfung von Anzeichen einer Parodontitis (Zahnfleischerkrankung)
+                    und Karies (Zahnfäule), von lockeren oder gebrochenen Zähnen, von beschädigten Füllungen oder Kronen sowie die Position der 
+                    einzelnen Zähne und der Zunge.
+                  </p>
+
+                  <a href="https://www.dentnet.de/ratgeber/vorsorgeuntersuchungen#:~:text=Wenn%20Sie%20Ihren%20Zahnarzt%20alle,m%C3%B6gliche%20andere%20Mundproblematiken%20zu%20sprechen." class="card-link">Weiter lesen</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
+                  <img src="./assets/images/blog-2.jpg" width="1180" height="800" loading="lazy"
+                    alt="Dras accumsan nulla nec lacus ultricies placerat." class="img-cover">
+
+                  <div class="card-badge">
+                    <ion-icon name="calendar-outline"></ion-icon>
+
+                    <time class="time" datetime="2023-04-22">22. April 2023</time>
+                  </div>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Mit dem Kind zum Zahnarzt – Was ist zu beachten?</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Ein Zahnarztbesuch mit Kindern kann sowohl für die Eltern als auch für die lieben Kleinen eine echte Herausforderung sein, besonders wenn es sich um den ersten Besuch handelt. 
+                    Es ist wichtig, Ihre Kinder behutsam darauf vorzubereiten und ihnen die Bedeutung der Zahnpflege und regelmäßigen Kontrollen näherzubringen.
+                  </p>
+
+                  <a href="https://www.dentnet.de/ratgeber/kinderzahnarzt" class="card-link">Weiter lesen</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 1180; --height: 800;">
+                  <img src="./assets/images/blog-3.jpg" width="1180" height="800" loading="lazy"
+                    alt="Seas accumsan nulla nec lacus ultricies placerat." class="img-cover">
+
+                  <div class="card-badge">
+                    <ion-icon name="calendar-outline"></ion-icon>
+
+                    <time class="time" datetime="2023-05-19">19.05.2023</time>
+                  </div>
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Ästhetische Zahnheilkunde – Schönheit für die Zähne.</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Sie haben kerngesunde Zähne, sind aber unglücklich mit dem Stand Ihrer Schneidezähne? 
+                    Sie vermeiden es zu lächeln, weil Ihre Zähne fleckig und verfärbt sind oder durch jahrelanges 
+                    Knirschen abgeschliffen wurden? Die ästhetische Zahnmedizin hat
+                    Lösungen parat und kann Ihnen wieder zu schönen Zähnen verhelfen.
+                  </p>
+
+                  <a href="https://www.dentnet.de/ratgeber/aesthetische-zahnheilkunde" class="card-link">Weiter lesen</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">Zahnzentrum.</a>
+
+          <p class="footer-text">
+            Wir legen besonderen Wert auf einfühlsame Behandlungen und nehmen uns Zeit, 
+            um Ihre individuellen Bedürfnisse zu verstehen und Ihnen die bestmögliche Lösung zu bieten.
+          </p>
+
+          <div class="schedule">
+            <div class="schedule-icon">
+              <ion-icon name="time-outline"></ion-icon>
+            </div>
+
+            <span class="span">
+              Montags - Samstags:<br>
+              08:00 Uhr - 18:00 Uhr
+            </span>
+          </div>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Navigation</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Start</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Über uns</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Leistungen</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Terminabsprache</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Unser Team</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Aktuelle Beiträge</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Leistungen</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Wurzelbehandlung</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Zahnausrichtung</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Professionelle Zahnreinigung</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Zahnfleischbehandlung</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Füllungstherapie</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">
+              <ion-icon name="add-outline"></ion-icon>
+
+              <span class="span">Mundhygiene</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Kontakt</p>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <address class="item-text">
+              Musterstraße 23<br>
+              12345 Musterstadt
+            </address>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="call-outline"></ion-icon>
+            </div>
+
+            <a href="tel:+4915786599562" class="footer-link">+49 (0) 1578 6599562</a>
+          </li>
+
+          <li class="footer-item">
+            <div class="item-icon">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <a href="mailto:help@example.com" class="footer-link">info@zahnzentrum.nrw</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 All Rights Reserved by <a href="https://designopatronum.github.io/portfolio/">Jan Jansen</a>
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+<!--
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+-->
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
